@@ -1,11 +1,13 @@
 # IA & retrospectivas
-El problema a resolver es la necesidad de crear dinámicas para las ceremonias de retrospectiva que ayuden a generar mayor compromiso y participación en los equipos que las ejecutan para que sean realmente útiles y generen las conversaciones necesarias para que esos equipos avancen. En muchos casos estas reuniones son repetitivas, poco inspiradoras y atentan contra su propósito dado que no ayudan a encontrar otras perspectivas o soluciones.
-Una solución basada en IA va a permitir con prompts bien estructurados poder generar conversaciones significativas y profundas. Ayudar a encontrar otro punto de vista a los problemas creando ideas que pueden ser más innovadoras. Pueden ampliarse los contextos y generar mayor personalización para los equipos. 
+El *problema a resolver* es la necesidad de crear dinámicas para las ceremonias de retrospectiva que ayuden a generar mayor compromiso y participación en los equipos que las ejecutan para que sean realmente útiles y generen las conversaciones necesarias para que esos equipos avancen. En muchos casos estas reuniones son repetitivas, poco inspiradoras y atentan contra su propósito dado que no ayudan a encontrar otras perspectivas o soluciones.
+
+Una solución basada en IA va a permitir que con prompts bien estructurados se puedan generar conversaciones significativas y profundas. Ayudar a encontrar otro punto de vista a los problemas creando ideas que pueden ser más innovadoras. Pueden ampliarse los contextos y generar mayor personalización para los equipos. 
+
 Los prompts pueden adaptarse a diferentes niveles de experiencia tanto de los equipos como de los facilitadores, además pueden ser reutilizados y adaptados a otros proyectos, por este último motivo, si bien el desarrollo inicial puede llevar tiempo, son factibles de reutilizar.
 
 
 La técnica de prompting a utilizar es *Few Shoot prompting*, la decisión se debe a: 
-En equipos con más de 3 meses en común, con sprints cortos, las retrospectivas suelen volverse repetitivas, aburridas y dejan de cumplir con el objetivo porque el equipo se compromete menos en participar. De la misma manera pasa esto en equipos con sprints más largos, pero más tarde en el tiempo🙂. Aplicando “Few Shoot Prompting” de algún modo se está entrenando al modelo para que pueda darnos respuestas más creativas, variadas y adaptadas a cada equipo y situación, evitando respuestas genéricas o comunes. 
+En equipos con más de 3 meses en común, con sprints cortos, las retrospectivas suelen volverse repetitivas, aburridas y dejan de cumplir con el objetivo porque el equipo se compromete menos en participar. De la misma manera pasa esto en equipos con sprints más largos, pero más tarde en el tiempo🙂. Aplicando *Few Shoot Prompting* de algún modo se está entrenando al modelo para que pueda darnos respuestas más creativas, variadas y adaptadas a cada equipo y situación, evitando respuestas genéricas o comunes. 
 
 A continuación comparto algunos prompts: 
 ### Prompt A
@@ -37,3 +39,5 @@ Preguntas: ¿Qué parte de nuestra "comida" necesita más sazón? ¿Cómo mejora
 Cambio de Rol:
 Descripción: Los miembros del equipo asumen el rol de otro compañero y explican cómo vivieron el sprint desde esa perspectiva.
 Preguntas: ¿Cómo experimenté el sprint desde este nuevo rol? ¿Qué dificultades no había notado antes?
+
+El ejecutar el código con cualquiera de estos prompts de ejemplo o incluso en el futuro utilizando los que nos propone la IA, se pueden ir utlizando distintas técnicas y temáticas de retrospectiva, haciendo más valiosa para el equipo esta técnica de mejora continua, analisis e introspección.
